@@ -10,6 +10,7 @@ Start with understanding the fundamentals of the web and how it works.
 
 ### Key Concepts:
 
+- **How to search**: Learn how to find information on the web.
 - **Client and Server**: Explore the relationship between the browser and server.
 - **Uniform Resource Locators**: A URL is another word for a web address.
 - **DNS, IP, Port**: Understand addressing and name resolution.
@@ -18,7 +19,6 @@ Start with understanding the fundamentals of the web and how it works.
 - **Hosting**: Learn about deploying websites to the internet.
 - **Browsers**: Understand browser engines and rendering processes.
 - **Network and Internet**: Grasp how the web connects users globally.
-- **How to search**: Learn how to find information on the web.
 
 ---
 
