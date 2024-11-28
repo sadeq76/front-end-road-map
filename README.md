@@ -83,6 +83,8 @@ The foundation of web development. Focus on structuring content.
 - **Web APIs**: set of interfaces provided by browsers that allow developers to interact with and manipulate various elements of the browser environment, the Document Object Model (DOM), and external data.
 - **Regular Expressions (RegEx)**: powerful tool used for searching, matching, and manipulating strings based on specific patterns.
 
+### **Practice**
+[Check out my HTML Exersices](https://github.com/sadeq76/html-exercises)
 ---
 
 ## **Learn CSS**
