@@ -60,6 +60,7 @@ The foundation of web development. Focus on structuring content.
 - **Interactive Tags**: `<dialog>`, `<details>`, `<summary>`.
 - **Metadata**: `<style>`, `<meta>`, `<link>`.
 - **Math**: MathML (Mathematical Markup Language) is a standard for displaying mathematical notations on the web.
+- **Deprecated Tags**: elements that are no longer recommended for use because they’ve been replaced by more modern and efficient alternatives.
 
 ### **More Concepts**
 
@@ -68,23 +69,56 @@ The foundation of web development. Focus on structuring content.
 
 ### **Advanced HTML**
 
-- **Search Engine Optimization**: optimizing HTML elements on a webpage to improve its visibility and ranking in search engine results.
 - **Template and slots**: Templates and slots are powerful tools in HTML, especially useful when working with reusable components and custom elements in modern web development.
 - **Responsive Design**:
   - **Viewport Meta Tag**: Ensure proper scaling.
   - **Responsive Images**: Use `<picture>` and `<source>`.
-- **Accessibility**: ARIA attributes, keyboard navigation, multimedia accessibility.
+- **Accessibility**:
+
+  - **ARIA**: Use ARIA attributes for accessibility.
+  - **Keyboard Navigation**: Ensure keyboard accessibility.
+  - **Multimedia Accessibility**: Ensure multimedia content is accessible.
+  - Color and Contrast
+  - Responsive Design
+  - Forms Accessibility
+  - Accessibility Testing Tools
+  - Accessibility Guidelines
+  - Accessibility in Web Accessibility
+  - References
+    - [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+    - [A11YProject](https://www.a11yproject.com/)
+    - [The World Wide Web Consortium Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+- **Best Practices**: Follow best practices for HTML structure and semantics.
 - **Performance**: Minify HTML, lazy load images, reduce DOM complexity.
 - **Security**: Avoid inline styles/scripts, sanitize inputs.
 
-### **Related Topics**
+### **Related Topics** (Optional)
 
+- **Search Engine Optimization**: optimizing HTML elements on a webpage to improve its visibility and ranking in search engine results.
+  - **Microdata and RDFa**: Enhance search engine visibility.
+  - **SEO Best Practices**: Use semantic HTML, optimize titles, meta descriptions, and alt tags.
+  - **Schema.org**: Structured data for rich snippets.
+  - **PageSpeed Insights**: Google's tool for analyzing and improving web performance.
+  - **Google Search Console**: Monitor and optimize your site's performance.
+  - **Google Analytics**: Track user behavior and engagement.
+  - **Google Tag Manager**: Manage and deploy tracking codes.
+  - **Google Analytics 4**: The latest version of Google Analytics.
+  - **Google Tag Assistant**: Debug and test tags.
+  - **Google Optimize**: A/B testing and experimentation.
+  - **Google Tag Manager 360**: Enhanced tag management.
 - **HTML Preprocessor**: tool that extends the functionality of standard HTML by allowing developers to use advanced features such as variables, loops, conditionals, and templates to simplify and speed up the development process (Not really important just know they exist).
-- **Web APIs**: set of interfaces provided by browsers that allow developers to interact with and manipulate various elements of the browser environment, the Document Object Model (DOM), and external data.
+- **Web APIs**: set of interfaces provided by browsers that allow developers to interact with and manipulate various elements of the browser environment, the Document Object Model (DOM), and external data (JavaScript required).
 - **Regular Expressions (RegEx)**: powerful tool used for searching, matching, and manipulating strings based on specific patterns.
 
 ### **Practice**
-[Check out my HTML Exersices](https://github.com/sadeq76/html-exercises)
+
+- [Check out my HTML Exersices](https://github.com/sadeq76/html-exercises)
+
+### **Test Your Knowledge**
+
+<!-- Add questions and answers -->
+
 ---
 
 ## **Learn CSS**
@@ -97,6 +131,7 @@ Style your HTML effectively with cascading stylesheets.
 - **Syntax**: Rules, declarations, and blocks.
 - **Comments**: Use `/* comments */` for clarity.
 - **Defining Styles**: Inline, internal, and external styles.
+- **Cascade and Inheritance**: Understanding how styles are applied.
 
 ### **Editors & Tools**
 
@@ -110,6 +145,11 @@ Style your HTML effectively with cascading stylesheets.
 - **Pseudo-classes**: Target states (e.g., `:hover`).
 - **Pseudo-elements**: Style parts of elements (e.g., `::before`).
 - **Attribute Selectors**: Target elements with specific attributes.
+
+### **Units**
+
+- **Absolute**: Fixed sizes (e.g., `px`, `cm`).
+- **Relative**: Relative to parent or viewport (e.g., `em`, `rem`, `%`).
 
 ### **CSS Properties**
 
@@ -125,31 +165,59 @@ Style your HTML effectively with cascading stylesheets.
 - **Grid**: Advanced two-dimensional layouts.
 - **Z-Index**: Stacking context for overlapping elements.
 
-### **Units**
+### **More concepts**
 
-### **Rules**
+- ** At rules**: @import, @media, @keyframes, @font-face, @supports ...
+- **Functions**: calc(), var(), url(), attr(), ...
+- **CSS Variables**: Reuse values across styles.
 
-### **Functions**
+### **Image-Related Properties**
 
-### **Filters**
+- **Background Image Properties**: Control the display of images as backgrounds for elements
+- **Object Fit and Object Position**: Control how an image fits inside its container and its alignment within that container.
+- **Aspect-Ratio**: Set the width-to-height ratio for elements, ensuring images maintain their natural proportions.
+- **Clip Path**: Define a clipping path to restrict the visible area of an element, creating custom shapes.
+- **Image Rendering**: Control how images are scaled and rendered, especially useful for pixelated images or maintaining sharpness.
+- **Filters**: Apply visual effects like blur, grayscale, or contrast to modify an image's appearance.
+- **Masks**: Use masks to control the visibility and transparency of an image, allowing for complex visual effects.
+
+## **Browser Compatibility**
+
+- **Browser Support**: Check compatibility for different browsers.
+- **Vendor Prefixes**: Add prefixes for experimental features.
+- **Feature Detection**: Check for browser features.
+- **Polyfills**: Add support for older browsers.
+
+## **Specificity & Cascade**
+
+- **Cascade & Inheritance**: Understand how styles are applied.
+- **Calculating Specificity**: Specificity is calculated with a four-part value: (a, b, c, d).
+- **Specificity Order**: When two rules have the same specificity, the rule that appears later in the CSS file is applied. So, order matters.
+- **Using !important**: break the natural cascading flow.
 
 ### **Responsive Design**
 
 - **Media Queries**: Adapt styles based on device size.
 - **Fluid Layouts**: Use percentages or `vw/vh`.
 
-### **Advanced CSS**
+### **Transitions & Animations**
 
-- **Transitions & Animations**: Add interactivity with smooth effects.
-- **CSS Variables**: Reuse values across styles.
-- **Clipping & Masking**: Create complex visuals.
+- **Transitions**: Smooth changes on state changes.
+- **Animations**: Keyframes for complex animations.
+- **Transforms**: Transform elements with 2D and 3D effects.
+- **CSS Animations vs JavaScript**: CSS animations are smoother, but JavaScript can be more flexible.
+- **Performance and Browser support**: Test and optimize for performance.
 
-### **CSS Architecture**
+### **Preprocessors**
+
+### **Frameworks and Libraries**
 
 - **Frameworks**: Bootstrap, Tailwind, etc.
 - **Utility-First CSS**: Tailwind CSS-style utilities.
 - **Component Libraries**: Pre-built components like Material UI.
 - **CSS-in-JS**: Style components with JavaScript (e.g., Styled-Components).
+
+### **Architecture**
 
 ### **Performance Optimization**
 
@@ -183,4 +251,5 @@ Explore APIs like Canvas, SVG, and WebGL for graphics.
 - **Real-World Projects**: Build websites and applications to solidify your knowledge.
 
 ## License
+
 This project is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/).
