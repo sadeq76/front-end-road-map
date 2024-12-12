@@ -66,29 +66,61 @@ The foundation of web development. Focus on structuring content.
 
 - **File paths**: Absolute vs. relative paths.
 - **HTML Entities, Symbols, and Emojis**: Reserved characters in HTML.
+- **Responsive Design**:
+  - **Viewport Meta Tag**: Ensure proper scaling.
+  - **Responsive Images**: Use `<picture>` and `<source>`.
+
+### **Accessibility**:
+
+- **Benefits**: Enhances website usability for all users, improves SEO, and ensures compliance with accessibility standards.
+- **Problems and Disability Types**: Addresses challenges for various disabilities, including visual, auditory, motor, cognitive, and age-related issues, as well as low-end devices and different screen sizes.
+- **Semantic HTML**: Use semantic HTML tags for better accessibility.
+- **Keyboard Navigation**: Ensure keyboard accessibility.
+- **ARIA attributes and roles**: Use ARIA attributes for accessibility.
+- **Responsive Design**: Ensure responsive design for all devices.
+- **Guidelines and Checklists**: Use accessibility guidelines.
+- **Accessibility Testing Tools**: Use tools like Chrome DevTools.
+- **References**
+  - [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+  - [A11YProject](https://www.a11yproject.com/)
+  - [The World Wide Web Consortium Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+### **Search Engine Optimization (SEO)**
+
+- **Benefits**: Benefits: Improves website visibility, search engine ranking, and user experience by making it easier for search engines to crawl, index, and rank content.
+- **On-Page SEO**: Optimize HTML structure, meta tags, and content.
+
+  - Optimize HTML Structure: Use semantic HTML for better indexing.
+  - Meta Tags: Optimize title tags, meta descriptions, and header tags for relevant keywords.
+  - Content: Create high-quality, original content that matches user intent and answers their queries.
+  - Descriptive URLs: Group similar content in directories and use keyword-rich, short URLs.
+  - Non text content and Alternatives: Add descriptive alt text to images to help search engines understand their content.
+  - Performance and Security: Ensure fast loading times and secure connections.
+  - Accessibility: Ensure your website is accessible to all users and devices.
+  - XML Sitemap
+  - Robots.txt
+  - Canonical Tags
+  - Structured Data (Schema Markup)
+  - Crawlability and Indexing
+  - Fixing Broken Links and Redirects
+  - AMP (Accelerated Mobile Pages)
+  - International SEO
+  - Test tools
+
+- Additional SEO Practices
+
+1. Microdata and RDFa
+   Enhance content with microdata and RDFa markup for better visibility in search engines, helping search engines better interpret page content.
+1. SEO Best Practices
+   Use semantic HTML to improve content structure and search engine understanding.
+   Optimize title tags, meta descriptions, and alt tags for better search rankings.
+   Keep content relevant and keyword-optimized without keyword stuffing.
+
+- **Off-Page SEO**: Build quality backlinks, social media presence.
 
 ### **Advanced HTML**
 
 - **Template and slots**: Templates and slots are powerful tools in HTML, especially useful when working with reusable components and custom elements in modern web development.
-- **Responsive Design**:
-  - **Viewport Meta Tag**: Ensure proper scaling.
-  - **Responsive Images**: Use `<picture>` and `<source>`.
-- **Accessibility**:
-
-  - **ARIA**: Use ARIA attributes for accessibility.
-  - **Keyboard Navigation**: Ensure keyboard accessibility.
-  - **Multimedia Accessibility**: Ensure multimedia content is accessible.
-  - Color and Contrast
-  - Responsive Design
-  - Forms Accessibility
-  - Accessibility Testing Tools
-  - Accessibility Guidelines
-  - Accessibility in Web Accessibility
-  - References
-    - [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
-    - [A11YProject](https://www.a11yproject.com/)
-    - [The World Wide Web Consortium Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
-
 - **Best Practices**: Follow best practices for HTML structure and semantics.
 - **Performance**: Minify HTML, lazy load images, reduce DOM complexity.
 - **Security**: Avoid inline styles/scripts, sanitize inputs.
@@ -96,17 +128,6 @@ The foundation of web development. Focus on structuring content.
 ### **Related Topics** (Optional)
 
 - **Search Engine Optimization**: optimizing HTML elements on a webpage to improve its visibility and ranking in search engine results.
-  - **Microdata and RDFa**: Enhance search engine visibility.
-  - **SEO Best Practices**: Use semantic HTML, optimize titles, meta descriptions, and alt tags.
-  - **Schema.org**: Structured data for rich snippets.
-  - **PageSpeed Insights**: Google's tool for analyzing and improving web performance.
-  - **Google Search Console**: Monitor and optimize your site's performance.
-  - **Google Analytics**: Track user behavior and engagement.
-  - **Google Tag Manager**: Manage and deploy tracking codes.
-  - **Google Analytics 4**: The latest version of Google Analytics.
-  - **Google Tag Assistant**: Debug and test tags.
-  - **Google Optimize**: A/B testing and experimentation.
-  - **Google Tag Manager 360**: Enhanced tag management.
 - **HTML Preprocessor**: tool that extends the functionality of standard HTML by allowing developers to use advanced features such as variables, loops, conditionals, and templates to simplify and speed up the development process (Not really important just know they exist).
 - **Web APIs**: set of interfaces provided by browsers that allow developers to interact with and manipulate various elements of the browser environment, the Document Object Model (DOM), and external data (JavaScript required).
 - **Regular Expressions (RegEx)**: powerful tool used for searching, matching, and manipulating strings based on specific patterns.
