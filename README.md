@@ -217,41 +217,34 @@ Style your HTML effectively with cascading stylesheets.
 - **Compilation**: Preprocessor code is converted into regular CSS.
 - Learn more about it later.
 
-### **Frameworks and Libraries**
+### **Libraries**
 
-- **Frameworks**: Bootstrap, Tailwind, etc.
-- **Utility-First CSS**: Tailwind CSS-style utilities.
+- **Utility-First libraries**: Tailwind CSS-style utilities.
 - **Component Libraries**: Pre-built components like Material UI.
-- **CSS-in-JS**: Style components with JavaScript (e.g., Styled-Components).
 
 ### **Architecture**
 
-### **Performance Optimization**
+- **Benefits**: Consistency, maintainability, and scalability.
+- **Methodologies**: BEM, SMACSS, OOCSS, ITCSS, RSCSS, Functional CSS, and SUIT CSS.
+
+### **Performance and security**
 
 - Minify CSS.
+- Render Tree Construction
+- Selector Efficiency
+- Animation Performance
 - Reduce unused styles.
 - Use critical CSS loading.
+- CSS Injection
+- Clickjacking
+- and more.
 
----
-
-### **More Advanced Concepts**
-
-Expand your knowledge as you gain experience.
-
-### **HTML & CSS Advanced Topics**
+### **Advanced Topics**
 
 - **Shadow DOM**: Scoped styles for components.
-- **Web Animations API**: Control animations with JavaScript.
 - **CSS Houdini**: Access the browser's rendering engine.
-- **Container Queries**: Style elements based on parent size.
 
-### **Web APIs**
-
-Explore APIs like Canvas, SVG, and WebGL for graphics.
-
----
-
-### **Practice & Certification**
+### **Practice**
 
 - **Tools**: Use Lighthouse, DevTools, W3Schools, or SoloLearn.
 - **Exams**: Test your skills and earn certifications.
