@@ -167,7 +167,7 @@ Style your HTML effectively with cascading stylesheets.
 
 ### **More concepts**
 
-- ** At rules**: @import, @media, @keyframes, @font-face, @supports ...
+- **At rules**: @import, @media, @keyframes, @font-face, @supports ...
 - **Functions**: calc(), var(), url(), attr(), ...
 - **CSS Variables**: Reuse values across styles.
 
@@ -181,14 +181,14 @@ Style your HTML effectively with cascading stylesheets.
 - **Filters**: Apply visual effects like blur, grayscale, or contrast to modify an image's appearance.
 - **Masks**: Use masks to control the visibility and transparency of an image, allowing for complex visual effects.
 
-## **Browser Compatibility**
+### **Browser Compatibility**
 
 - **Browser Support**: Check compatibility for different browsers.
 - **Vendor Prefixes**: Add prefixes for experimental features.
 - **Feature Detection**: Check for browser features.
 - **Polyfills**: Add support for older browsers.
 
-## **Specificity & Cascade**
+### **Specificity & Cascade**
 
 - **Cascade & Inheritance**: Understand how styles are applied.
 - **Calculating Specificity**: Specificity is calculated with a four-part value: (a, b, c, d).
@@ -210,6 +210,13 @@ Style your HTML effectively with cascading stylesheets.
 
 ### **Preprocessors**
 
+- **What is a preprocessor?**: A tool that enhances CSS by adding features like variables, nesting, and mixins.
+- **Benefits**: Helps reduce repetitive code and improves maintainability.
+- **Popular preprocessors**: Sass, Less, Stylus.
+- **Key features**: Variables, nesting, mixins, and functions.
+- **Compilation**: Preprocessor code is converted into regular CSS.
+- Learn more about it later.
+
 ### **Frameworks and Libraries**
 
 - **Frameworks**: Bootstrap, Tailwind, etc.
@@ -227,7 +234,7 @@ Style your HTML effectively with cascading stylesheets.
 
 ---
 
-## **More Advanced Concepts**
+### **More Advanced Concepts**
 
 Expand your knowledge as you gain experience.
 
@@ -244,7 +251,7 @@ Explore APIs like Canvas, SVG, and WebGL for graphics.
 
 ---
 
-## **Practice & Certification**
+### **Practice & Certification**
 
 - **Tools**: Use Lighthouse, DevTools, W3Schools, or SoloLearn.
 - **Exams**: Test your skills and earn certifications.
