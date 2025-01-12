@@ -12,16 +12,121 @@ This project is licensed under the [Creative Commons Attribution-NoDerivatives 4
 
 Start with understanding the fundamentals of the web and how it works.
 
-### Key Concepts:
+### **Searching for Code Solutions**
 
-- **How to search**: Learn how to find information on the web.
+Learn how to search effectively on the web.
+
+#### Basic Search Techniques
+
+- **Using Keywords**: Learn how to effectively find information by using relevant keywords.
+- **Quotation Marks**: Use quotation marks to search for exact phrases or specific strings.
+- **Using Minus Sign**: Exclude specific terms from your search by using a minus sign (`-`).
+- **Wildcards**: Use wildcards (e.g., `*`) to search for variations or similar terms.
+- **Search Operators**: Understand how to use operators like `AND`, `OR`, and `NOT` to refine your search.
+- **Search Engines**: Explore the different types of search engines and their unique features.
+- **Search Tips**: Discover tips and tricks to improve your search accuracy and efficiency.
+- **Search History**: Learn how to keep track of and utilize your search history for future reference.
+
+#### Advanced Search Techniques
+
+- **Site-Specific Search**: Search for content exclusively within specific websites using `site:example.com`.
+- **Filetype Search**: Search for specific file types like `PDF`, `DOCX`, etc., using `filetype:pdf`.
+- **Related Search**: Find websites related to a particular domain with `related:example.com`.
+- **Title or URL Search**: Search for content based on specific titles or URLs using `intitle:` or `inurl:`.
+- **Search by Date**: Narrow down results to content published within a specific time range.
+- **Local Searches**: Search for content relevant to a specific location or language.
+- **Search by Category**: Focus your search on content within specific categories.
+- **Search by Author or Publisher**: Find content based on a particular author or publisher.
+- **Search by Subject or Keywords**: Locate information by using targeted subjects or keywords.
+- **Image and Visual Searches**: Utilize tools to search for images or visual content directly.
+- **Learning to Formulate Better Queries**: Enhance your ability to write clear and effective search queries.
+
+#### Another Solutions
+
+- **[Stackoverflow](https://stackoverflow.com/)**: A platform for developers to ask and answer programming-related questions.
+- **[Github](https://github.com/)**: Search for repositories and solutions to similar issues (e.g., `site:github.com fetch wrapper library`).
+- **[Dev.to](https://dev.to/)**: Read blogs and tutorials written by developers.
+- **[Medium](https://medium.com/)**: Access detailed articles and guides on various technical topics.
+- **[NPM](https://www.npmjs.com/)**: Find and explore JavaScript packages and libraries.
+- **[MDN](https://developer.mozilla.org/en-US/)**: Use Mozilla Developer Network as a comprehensive resource for web development.
+- **[W3Schools](https://www.w3schools.com/)**: Learn web development basics and advanced topics.
+- **[Youtube](https://www.youtube.com/)**: Watch tutorials and guides on various coding concepts.
+- **[Google Scholar](https://scholar.google.com/)**: Search for academic articles and research papers.
+- **[Quora](https://www.quora.com/)**: Ask and find answers to a variety of questions.
+- **[Reddit](https://www.reddit.com/)**: Join discussions and discover user-generated solutions.
+
+#### Language and Translation
+
+- **[Google Translate](https://translate.google.com/)**: Translate text between different languages.
+- **Google Translate Extension**: Quickly translate content directly in your browser.
+
+### **Browsers**
+
+How browsers work and what they do.
+
+#### Basics
+
+- **What is a Browser**: Understand the role of a browser in web browsing.
+- **Popular Browsers**: Learn about widely used browsers like Chrome, Firefox, and Safari.
+- **Browsers and Engines**: Explore the relationship between browsers and their engines, including rendering and JavaScript engines.
+- **Compatibility**: Learn how to ensure browser compatibility for web applications.
+
+#### Browser Components
+
+- **User Interface**: Discover the main elements of a browser's user interface.
+- **Rendering Engines**: Understand how rendering engines convert code into visual content.
+- **JavaScript Engines**: Learn how JavaScript engines execute scripts in the browser.
+- **Extensions**: Explore browser extensions and their functionalities.
+
+#### Rendering Process
+
+1. **HTML Parsing**: Converts HTML into a Document Object Model (DOM) tree.
+2. **CSS Parsing**: Transforms CSS into a CSS Object Model (CSSOM).
+3. **Render Tree Construction**: Combines the DOM and CSSOM into a Render Tree.
+4. **Layout**: Calculates the size and position of elements on the page.
+5. **Painting**: Applies styles, colors, and images to elements.
+6. **Compositing**: Combines layers to produce the final visual output.
+
+#### Browser APIs
+
+- **What are Web APIs**: Learn about the APIs that browsers provide for interacting with web content and features.
+
+#### Browser Devtools
+
+- **Devtools Overview**: Explore the various tools available in browser developer tools.
+- **Elements**: Inspect and edit HTML and CSS directly.
+- **Console**: Use the console for debugging and logging information.
+- **Network**: Monitor and analyze network requests and responses.
+- **Performance**: Optimize the performance of your web applications.
+- **Source Code**: View, edit, and debug source code within the browser.
+- **Application**: Debug and profile web applications, including storage and service workers.
+- **Accessibility**: Test for and improve web accessibility.
+- **Command Line**: Execute commands directly within the Devtools command line.
+- **Keyboard Shortcuts**: Use keyboard shortcuts to speed up development tasks.
+- **Customize**: Adjust Devtools settings to suit your workflow.
+- **More Advanced Features**: Delve into advanced Devtools features for in-depth debugging and analysis.
+
+#### Browser Storage
+
+- **Local Storage**: Store data locally in the browser with no expiration.
+- **Session Storage**: Temporarily store data for the duration of the page session.
+- **Cookies**: Manage client-side data storage with cookies.
+- **IndexedDB**: Use a database for storing structured data in the browser.
+- **Web Storage**: Leverage a simple key-value storage system.
+- **Web SQL**: Utilize a relational database for client-side storage (deprecated but still worth understanding).
+
+#### Security
+
+- **Security Overview**: Understand browser security principles, including HTTPS, CORS, and same-origin policies.
+
+### Another Concepts:
+
 - **Client and Server**: Explore the relationship between the browser and server.
 - **Uniform Resource Locators**: A URL is another word for a web address.
 - **DNS, IP, Port**: Understand addressing and name resolution.
 - **HTTP**: Learn how data is transferred between client and server.
 - **TCP/IP**: Discover the protocols governing communication.
 - **Hosting**: Learn about deploying websites to the internet.
-- **Browsers**: Understand browser engines and rendering processes.
 - **Network and Internet**: Grasp how the web connects users globally.
 
 ---
@@ -78,7 +183,7 @@ The foundation of web development. Focus on structuring content.
 
 - **Template and slots**: Templates and slots are powerful tools in HTML, especially useful when working with reusable components and custom elements in modern web development.
 - **Best Practices**: Follow best practices for HTML structure and semantics.
-- **Performance**: Minify HTML, lazy load images, reduce DOM complexity.
+- **Performance**: Minify HTML, lazy load images, reduce DOM complexity, How Engines render HTML.
 - **Security**: Avoid inline styles/scripts, sanitize inputs.
 
 ### **Related Topics** (Optional)
@@ -213,7 +318,7 @@ Style your HTML effectively with cascading stylesheets.
 - Use critical CSS loading.
 - CSS Injection
 - Clickjacking
-- and more.
+- How Engines render HTML.
 
 ### **Advanced Topics**
 
@@ -245,3 +350,5 @@ Style your HTML effectively with cascading stylesheets.
   - [The World Wide Web Consortium Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
 ## **Performance**
+
+Rendering Process
