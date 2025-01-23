@@ -333,6 +333,15 @@ Style your HTML effectively with cascading stylesheets.
 
 ---
 
+## **Preprocessors**
+
+
+---
+
+## **Data structure**
+
+---
+
 ## **JavaScript**
 
 ### Introduction
@@ -486,6 +495,12 @@ Used to check the type of a variable.
 - **AJAX**: Asynchronous data requests.
 - **Data Structures**: Arrays, stacks, queues, trees.
 
+---
+
+## **Typescript**
+
+
+---
 
 ## **Accessibility**
 
@@ -503,6 +518,17 @@ Used to check the type of a variable.
   - [A11YProject](https://www.a11yproject.com/)
   - [The World Wide Web Consortium Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
+---
+
 ## **Performance**
 
 Rendering Process
+
+---
+
+## **Search engine optimization**
+
+---
+
+## **Algorithms**
+
