@@ -331,6 +331,8 @@ Style your HTML effectively with cascading stylesheets.
 - **Exams**: Test your skills and earn certifications.
 - **Real-World Projects**: Build websites and applications to solidify your knowledge.
 
+---
+
 ## **JavaScript**
 
 ### Introduction
