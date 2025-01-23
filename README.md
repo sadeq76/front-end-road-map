@@ -387,12 +387,12 @@ Before diving into JavaScript, it's important to understand some fundamental pro
 
 - **Imperative vs Declarative Programming**: These are two fundamental programming styles that describe how we write code to achieve a desired outcome.
   - **Imperative Programming:**  
-  - Focuses on *how* to achieve the result by describing the step-by-step process.  
-  - Involves control structures like loops and conditionals.
+    - Focuses on *how* to achieve the result by describing the step-by-step process.  
+    - Involves control structures like loops and conditionals.
  
   - **Declarative Programming:**  
-  - Focuses on *what* should be done rather than *how* to do it.  
-  - Uses higher-level abstractions and built-in methods.
+    - Focuses on *what* should be done rather than *how* to do it.  
+    - Uses higher-level abstractions and built-in methods.
  
 #### What is JavaScript and Why Do We Need It?
 JavaScript (JS) is a **high-level, lightweight, and cross-platform programming language** primarily used to make web pages interactive. It is:
