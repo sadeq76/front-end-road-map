@@ -796,6 +796,12 @@ Rendering Process
 
 ---
 
+
+## **Programming Topics**
+Paralled programming 
+
+---
+
 ## **Other sides knowledge**
 Backend 
 UI/UX
