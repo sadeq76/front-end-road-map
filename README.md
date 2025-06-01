@@ -763,3 +763,42 @@ Rendering Process
 
 ## **Algorithms**
 
+---
+
+## **Clean code**
+
+---
+
+## **Documantation**
+
+---
+
+
+## **Test**
+
+---
+
+
+## **Documantation**
+
+---
+
+
+## **Architectures**
+
+---
+
+## **API**
+
+---
+
+## **Rendering methods**
+
+---
+
+## **Other sides knowledge**
+Backend 
+UI/UX
+Devops
+
+
