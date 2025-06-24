@@ -524,6 +524,10 @@ To deepen your understanding of data structures, explore these related topics:
 
 ---
 
+## **Programming languages**
+
+---
+
 ## **JavaScript**
 
 ### Introduction
