@@ -681,6 +681,12 @@ Used to check the type of a variable.
 - **Callbacks**: Functions passed as arguments.
 - **Explicit Binding**: Using `call`, `apply`, or `bind`.
 
+### Array Methods
+
+
+### Object Methods
+
+
 ### Scopes
 - **Global vs Local Scope**: Variables defined inside or outside functions.
 - **Function Scope vs Block Scope**: `var` vs `let` and `const`.
