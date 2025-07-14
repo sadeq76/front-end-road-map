@@ -696,6 +696,8 @@ Used to check the type of a variable.
 - **Variables**: `var` is hoisted, `let` and `const` are not initialized.
 - **Functions**: Function declarations are hoisted.
 
+### dom
+
 ### Memory Management
 - **Memory Allocation**: Stack and heap.
 - **Garbage Collection**: Automatically reclaims unused memory.
